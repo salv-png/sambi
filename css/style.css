@@ -1,8 +1,14 @@
 /********** Template CSS **********/
 :root {
-    --primary: #FEA116;
+    --primary: #637c2d;
     --light: #F1F8FF;
     --dark: #0F172B;
+}
+.container-xxl {
+    width: 100%; /* Ensure it spans the full width */
+    max-width: 100%; /* Prevent any max-width restrictions */
+    padding: 0; /* Remove any padding that creates gaps on the sides */
+    margin: 0 auto; /* Center-align the container */
 }
 
 .ff-secondary {
@@ -156,6 +162,8 @@
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+    height: 100vh; /* Full viewport height */
+    width: 100%; /* Full width */
 }
 
 .hero-header img {
